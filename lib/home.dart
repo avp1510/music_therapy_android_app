@@ -11,20 +11,15 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-
-
-
-
-
   @override
   Widget build(BuildContext context) {
     return Container(
       color: Colors.grey,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.black.withOpacity(0.2),
-          title: Text("Home"),
-          centerTitle: true,
+          backgroundColor: Color.fromARGB(255, 66, 66, 66),
+          title: Text("   Home"),
+          automaticallyImplyLeading: false,
         ),
         body: Center(
           child: Container(
@@ -34,28 +29,30 @@ class _HomeScreenState extends State<HomeScreen> {
                 Material(
                   borderRadius: BorderRadius.circular(20),
                   clipBehavior: Clip.antiAliasWithSaveLayer,
-                  
                   color: Colors.black,
                   child: InkWell(
                     splashColor: Colors.grey,
-                    onTap: () {},
-                    
+                    onTap: () {
+                      Navigator.pushNamed(context, "mood");
+                    },
                     child: Container(
                       width: 190,
-                    
                       padding: EdgeInsets.all(20),
                       child: Column(
-                        
                         children: [
                           Image.asset(
                             "assets/emotions.png",
                             height: 100,
                             width: 100,
                             fit: BoxFit.cover,
-                            ),
-                                    
-                            SizedBox(height: 6,),
-                            Text("Mood",style: TextStyle(fontSize: 28, color: Colors.white),)
+                          ),
+                          SizedBox(
+                            height: 6,
+                          ),
+                          Text(
+                            "Mood",
+                            style: TextStyle(fontSize: 28, color: Colors.white),
+                          )
                         ],
                       ),
                     ),
@@ -64,34 +61,33 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(
                   height: 50,
                 ),
-
-
                 Material(
                   borderRadius: BorderRadius.circular(20),
                   clipBehavior: Clip.antiAliasWithSaveLayer,
-                
-                  
                   color: Colors.black,
                   child: InkWell(
                     splashColor: Colors.grey,
-                    onTap: () {},
-                    
+                    onTap: () {
+                      Navigator.pushNamed(context, "disease");
+                    },
                     child: Container(
                       width: 190,
-                    
                       padding: EdgeInsets.all(20),
                       child: Column(
-                        
                         children: [
                           Image.asset(
                             "assets/musictherapy.png",
                             height: 100,
                             width: 100,
                             fit: BoxFit.cover,
-                            ),
-                                    
-                            SizedBox(height: 6,),
-                            Text("Therapy",style: TextStyle(fontSize: 28, color: Colors.white),)
+                          ),
+                          SizedBox(
+                            height: 6,
+                          ),
+                          Text(
+                            "Therapy",
+                            style: TextStyle(fontSize: 28, color: Colors.white),
+                          )
                         ],
                       ),
                     ),
@@ -100,13 +96,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(
                   height: 20,
                 ),
-
-
-
-                
-
-                
-                
               ],
             ),
           ),
@@ -115,4 +104,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-

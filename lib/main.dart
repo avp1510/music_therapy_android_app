@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:music_therapy/disease_selec.dart';
 import 'package:music_therapy/home.dart';
 import 'package:music_therapy/login.dart';
+import 'package:music_therapy/mood_selec.dart';
 import 'package:music_therapy/signup.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'home.dart';
@@ -14,6 +16,8 @@ void main() async {
     initialRoute: "login",
     routes: {"login": (context) => MyLogin(),
              "signup":(context) => MySignup(),
-             "homescreen":(context) => HomeScreen(),},
+             "homescreen":(context) => HomeScreen(),
+             "mood":(context) => Moods(),
+             "disease":(context) => Disease(),},
   ));
 }
