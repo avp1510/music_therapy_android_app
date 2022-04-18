@@ -42,6 +42,14 @@ class _StressState extends State<Stress> {
       'cover':
           "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_577529759.jpg"
     },
+    {
+      'title': "Tora Man Darpan Kahlaye",
+      'singer': "Asha Bhosle",
+      'url':
+          "https://pagalsong.in/uploads/systemuploads/mp3/Kaajal/Tora%20Man%20Darpan%20Kahlaye%20-%20Kaajal%20128%20Kbps.mp3",
+      'cover':
+          "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_1715134728.jpg"
+    },
   ];
 
   String currentTile = "";

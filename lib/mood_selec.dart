@@ -61,7 +61,9 @@ class _MoodsState extends State<Moods> {
                 color: Color.fromARGB(255, 40, 138, 69),
                 child: InkWell(
                   splashColor: Colors.grey,
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushNamed(context,'sad' );
+                  },
                   child: Container(
                     padding: EdgeInsets.all(20),
                     child: Row(

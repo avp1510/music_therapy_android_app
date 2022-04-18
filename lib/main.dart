@@ -4,6 +4,7 @@ import 'package:music_therapy/happy.dart';
 import 'package:music_therapy/home.dart';
 import 'package:music_therapy/login.dart';
 import 'package:music_therapy/mood_selec.dart';
+import 'package:music_therapy/sad.dart';
 import 'package:music_therapy/signup.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:music_therapy/stress.dart';
@@ -22,7 +23,8 @@ void main() async {
              "mood":(context) => Moods(),
              "disease":(context) => Disease(),
              "happy":(context) => Happy(),
-             "stress":(context) => Stress()
+             "stress":(context) => Stress(),
+             "sad":(context) => Sad()
              
              },
   ));
