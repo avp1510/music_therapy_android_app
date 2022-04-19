@@ -26,7 +26,15 @@ class _HappyState extends State<Happy> {
       'url':
           "https://pagalsong.in/uploads/systemuploads/mp3/Dil%20Dhadakne%20Do/Dil%20Dhadakne%20Do.mp3",
       'cover':
-          "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgaana.com%2Falbum%2Fdil-dhadakne-do&psig=AOvVaw3oR1eII2jW98plJtN8VRTD&ust=1650358624227000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiBoKyfnfcCFQAAAAAdAAAAABAD"
+          "https://a10.gaanacdn.com/images/albums/29/318129/crop_480x480_318129.jpg"
+    },
+    {
+      'title': "London Thumakda",
+      'singer': "Amit Trivedi, Neha Kakkar",
+      'url':
+          "https://pwdown.com/9418/London-Thumakda%20-%20Queen%20-%20190Kbps.mp3",
+      'cover':
+          "https://www.pagalworld.pw/GpE34Kg9Gq/8629/thumb-queen-2014-mp3-songs-300.jpg"
     }
   ];
 

@@ -28,6 +28,7 @@ class _SadState extends State<Sad> {
           "https://pagalsong.in/uploads/systemuploads/mp3/Dil%20Dhadakne%20Do/Dil%20Dhadakne%20Do.mp3",
       'cover':
           "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgaana.com%2Falbum%2Fdil-dhadakne-do&psig=AOvVaw3oR1eII2jW98plJtN8VRTD&ust=1650358624227000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiBoKyfnfcCFQAAAAAdAAAAABAD"
+    
     }
   ];
 
